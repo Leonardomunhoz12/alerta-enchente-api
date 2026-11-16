@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CEF21364-B2ED-425E-AB0B-59BC5CCA2840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertaEnchente.Api", "src\AlertaEnchente.Api\AlertaEnchente.Api.csproj", "{CCCB1A05-054E-4A7F-826D-2593FE86C3D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B0472FD5-39F1-49CE-B02A-29884592CB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertaEnchente.Tests", "tests\AlertaEnchente.Tests\AlertaEnchente.Tests.csproj", "{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCCB1A05-054E-4A7F-826D-2593FE86C3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCB1A05-054E-4A7F-826D-2593FE86C3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCB1A05-054E-4A7F-826D-2593FE86C3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCB1A05-054E-4A7F-826D-2593FE86C3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCCB1A05-054E-4A7F-826D-2593FE86C3D1} = {CEF21364-B2ED-425E-AB0B-59BC5CCA2840}
+		{E1D44CC5-8C1A-4A33-9E9A-7CB1DC0AF2BD} = {B0472FD5-39F1-49CE-B02A-29884592CB56}
+	EndGlobalSection
+EndGlobal
